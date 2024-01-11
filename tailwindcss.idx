@@ -2,4 +2,5 @@ nimTitle	tailwindcss	tailwindcss.html	module src/tailwindcss		0
 nim	TailwindCssObj	tailwindcss.html#TailwindCssObj	type TailwindCssObj		17
 nim	tailwind	tailwindcss.html#tailwind	var tailwind		20
 nim	configure	tailwindcss.html#configure.m,TailwindCssObj,static[JsonNode]	macro configure(self: TailwindCssObj; config: static[JsonNode])		23
+heading	Example	tailwindcss.html#highlightdotjs-example	   Example		0
 heading	Highlight.js	tailwindcss.html#highlightdotjs	 Highlight.js		0

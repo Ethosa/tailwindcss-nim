@@ -1,6 +1,6 @@
-## # Highlight.js
+## # Tailwind CSS
 ## 
-## [highlight.js](https://highlightjs.org/) for Nim
+## [Tailwind CSS](https://tailwindcss.com/) for Nim
 ## 
 when not defined(js):
   {.error: "This library works only with JS backend".}

@@ -1,0 +1,2 @@
+nimTitle	fetch_lib	tailwindcss/private/fetch_lib.html	module src/tailwindcss/private/fetch_lib		0
+nim	emitJs	tailwindcss/private/fetch_lib.html#emitJs,string	proc emitJs(code: string): NimNode		6

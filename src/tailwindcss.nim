@@ -21,4 +21,19 @@ var tailwind* {.importc, nodecl.}: TailwindCssObj
 
 
 macro configure*(self: TailwindCssObj, config: static[JsonNode]) =
+  ## Changes tailwind configuration
+  ## 
+  ## ### Example
+  ## 
+  ## ```nim
+  ## tailwind.configure(%*{
+  ##   "theme": {
+  ##     "extend": {
+  ##       "colors": {
+  ##         "clifford": "#da373d",
+  ##       }
+  ##     }
+  ##   }
+  ## })
+  ## ```
   emitJs("tailwind.config = " & $config & ";")
